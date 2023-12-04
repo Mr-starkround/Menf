@@ -1,21 +1,21 @@
 import os
 
-api_id = int(os.environ.get("API_ID", "24465982"))
-api_hash = os.environ.get("API_HASH", "2b3131b7d3f6a42bd4ae1ba3b58c11c4")
-bot_token = os.environ.get("BOT_TOKEN", "5974054493:AAGNaK3vuyRtBfXloDXKO1ZpJ8YCTAjBnjk")
+api_id = int(os.environ.get("API_ID", "25478698"))
+api_hash = os.environ.get("API_HASH", "7a80ffea6f9a06ec540a9fdf0fafb487")
+bot_token = os.environ.get("BOT_TOKEN", "6382495868:AAFu3qlrkMCkJQSE2ew2PUPmXRyjs4C0nRc")
 # =========================================================== #
 
 db_url = os.environ.get("DB_URL", "mongodb+srv://neko:<password>@nekomenfess.ss5r7je.mongodb.net/?retryWrites=true&w=majority")
 db_name = os.environ.get("DB_NAME", "menfess")
 # =========================================================== #
 
-channel_1 = int(os.environ.get("CHANNEL_1", "-1001884106616"))
-channel_2 = int(os.environ.get("CHANNEL_2", "-1001973439933"))
-channel_3 = int(os.environ.get("CHANNEL_3", "-1001884106616"))
-channel_log = int(os.environ.get("CHANNEL_LOG", "-1001941178911"))
+channel_1 = int(os.environ.get("CHANNEL_1", "-1002063224209"))
+channel_2 = int(os.environ.get("CHANNEL_2", "-1001942915917"))
+channel_3 = int(os.environ.get("CHANNEL_3", "-1001942915917"))
+channel_log = int(os.environ.get("CHANNEL_LOG", "-1002130790212"))
 # =========================================================== #
 
-id_admin = int(os.environ.get("ID_ADMIN", "5633222043"))
+id_admin = int(os.environ.get("ID_ADMIN", "6366185217"))
 # =========================================================== #
 
 batas_kirim = int(os.environ.get("BATAS_KIRIM", "3"))
@@ -58,22 +58,20 @@ pic_rekberboy = os.environ.get("PIC_REKBERBOY", "https://telegra.ph/file/78acf32
 
 pesan_join = os.environ.get("PESAN_JOIN", "Tidak dapat diakses harap join terlebih dahulu")
 start_msg = os.environ.get("START_MSG", """"
-{mention},Silahkan gunakan hastag:
+❏ Haii {mention}
+<b>silahkan kirim pesan anda menggunakan hashtag:</b>
 
-#NekoBoy / #NekoGirl untuk Mencari Pasangan,Teman , Partner dll
-#NekoAsk untuk Bertanya
-#NekoStory untuk Berbagi Cerita
-#NekoSpill untuk Spill Masalah
-#NekoFind untuk Mencari Pasangan, Teman, Partner dll
+• #mba [ untuk identitas perempuan]
+• #mas [ untuk identitas laki-laki ]
+• #spill [ untuk spill masalah ]
+• #tanya [ untuk bertanya ]
+• #story [ untuk berbagi cerita/curhat ]
+• #pap [ khusus media foto/video ]
 
-{fullname} 🌱\n\nIni adalah bot menfess, semua pesan yang kamu kirim akan masuk ke channel secara anonymous. ketik /help""")
+<b>Contoh pesan:</b> <code>#mas yang dari jogja. meet yuk {username} </code>
+
+<b>pastikan kamu sudah baca <a href="https://t.me/JAWAFES/9">rules</a> dan <a href="https://t.me/JAWAFES/10">help</a> terlebih dahulu</b>""")
 
 gagalkirim_msg = os.environ.get("GAGAL_KIRIM", """
-{mention}, pesan mu gagal terkirim silahkan gunakan hastag:
-
-#NekoBoy / #NekoGirl untuk Mencari Pasangan, Teman , Partner dll
-#NekoAsk untuk Bertanya
-#NekoStory untuk Berbagi Cerita
-#NekoSpill untuk Spill Masalah
-#NekoFind untuk Mencari Pasangan, Teman, Partner dll
+{mention}, pesan mu gagal terkirim. silahkan baca <a href="https://t.me/JAWAFES/10">help</a> terlebih dahulu 
 """)

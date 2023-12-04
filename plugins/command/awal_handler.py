@@ -125,21 +125,6 @@ async def help_handler(client, msg):
     member = db.get_data_pelanggan()
 
     pesan = "Supported commands\n" + '/status — melihat status\n'
-    pesan += '/talent — melihat talent\n'
-    pesan += '❏ Haii {mention}
-<b>silahkan kirim pesan anda menggunakan hashtag:</b>
-
-• #mba [ untuk identitas perempuan]
-• #mas [ untuk identitas laki-laki ]
-• #spill [ untuk spill masalah ]
-• #tanya [ untuk bertanya ]
-• #story [ untuk berbagi cerita/curhat ]
-• #pap [ khusus media foto/video ]
-
-<b>Contoh pesan:</b> <code>#mas yang dari jogja. meet yuk {username} </code>
-
-<b>pastikan kamu sudah baca <a href="https://t.me/JAWAFES/9">rules</a> dan <a href="https://t.me/JAWAFES/10">help</a> terlebih dahulu</b>'
-
     # Tambahkan InlineKeyboardButton "JASA" di sini
     keyboard = [
         [InlineKeyboardButton("BANTUAN", callback_data="https://t.me/vxnjul")],
